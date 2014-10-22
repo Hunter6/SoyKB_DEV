@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C585040E19F02CE800C88E7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C585040D19F02CE800C88E7C /* Foundation.framework */; };
+		C585041019F02CE800C88E7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C585040F19F02CE800C88E7C /* CoreGraphics.framework */; };
+		C585041219F02CE800C88E7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C585041119F02CE800C88E7C /* UIKit.framework */; };
+		C585041819F02CE800C88E7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C585041619F02CE800C88E7C /* InfoPlist.strings */; };
+		C585041A19F02CE800C88E7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C585041919F02CE800C88E7C /* main.m */; };
+		C585041E19F02CE800C88E7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C585041D19F02CE800C88E7C /* AppDelegate.m */; };
+		C585042119F02CE800C88E7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C585041F19F02CE800C88E7C /* Main.storyboard */; };
+		C585042419F02CE800C88E7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C585042319F02CE800C88E7C /* ViewController.m */; };
+		C585042619F02CE800C88E7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C585042519F02CE800C88E7C /* Images.xcassets */; };
+		C585042D19F02CE800C88E7C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C585042C19F02CE800C88E7C /* XCTest.framework */; };
+		C585042E19F02CE800C88E7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C585040D19F02CE800C88E7C /* Foundation.framework */; };
+		C585042F19F02CE800C88E7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C585041119F02CE800C88E7C /* UIKit.framework */; };
+		C585043719F02CE800C88E7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C585043519F02CE800C88E7C /* InfoPlist.strings */; };
+		C585043919F02CE800C88E7C /* SoyKB_DEVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C585043819F02CE800C88E7C /* SoyKB_DEVTests.m */; };
+		C585044719F036C900C88E7C /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C585044619F036C900C88E7C /* RegisterViewController.m */; };
+		C5A6C92019F81E400057C305 /* NavTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6C91F19F81E400057C305 /* NavTableViewController.m */; };
+		C5A6C92319F820F40057C305 /* NavTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6C92219F820F40057C305 /* NavTableViewCell.m */; };
+		C5A6C92919F832D20057C305 /* SecondNavTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6C92819F832D20057C305 /* SecondNavTableViewController.m */; };
+		C5A6C92C19F8514B0057C305 /* SecondNavTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6C92B19F8514B0057C305 /* SecondNavTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C585043019F02CE800C88E7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C585040219F02CE700C88E7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C585040919F02CE700C88E7C;
+			remoteInfo = SoyKB_DEV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C585040A19F02CE800C88E7C /* SoyKB_DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoyKB_DEV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C585040D19F02CE800C88E7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C585040F19F02CE800C88E7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C585041119F02CE800C88E7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C585041519F02CE800C88E7C /* SoyKB_DEV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoyKB_DEV-Info.plist"; sourceTree = "<group>"; };
+		C585041719F02CE800C88E7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C585041919F02CE800C88E7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C585041B19F02CE800C88E7C /* SoyKB_DEV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoyKB_DEV-Prefix.pch"; sourceTree = "<group>"; };
+		C585041C19F02CE800C88E7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C585041D19F02CE800C88E7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C585042019F02CE800C88E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C585042219F02CE800C88E7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C585042319F02CE800C88E7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C585042519F02CE800C88E7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C585042B19F02CE800C88E7C /* SoyKB_DEVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoyKB_DEVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C585042C19F02CE800C88E7C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C585043419F02CE800C88E7C /* SoyKB_DEVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoyKB_DEVTests-Info.plist"; sourceTree = "<group>"; };
+		C585043619F02CE800C88E7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C585043819F02CE800C88E7C /* SoyKB_DEVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoyKB_DEVTests.m; sourceTree = "<group>"; };
+		C585044519F036C900C88E7C /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		C585044619F036C900C88E7C /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		C5A6C91E19F81E400057C305 /* NavTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavTableViewController.h; sourceTree = "<group>"; };
+		C5A6C91F19F81E400057C305 /* NavTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavTableViewController.m; sourceTree = "<group>"; };
+		C5A6C92119F820F40057C305 /* NavTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavTableViewCell.h; sourceTree = "<group>"; };
+		C5A6C92219F820F40057C305 /* NavTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavTableViewCell.m; sourceTree = "<group>"; };
+		C5A6C92719F832D20057C305 /* SecondNavTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondNavTableViewController.h; sourceTree = "<group>"; };
+		C5A6C92819F832D20057C305 /* SecondNavTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondNavTableViewController.m; sourceTree = "<group>"; };
+		C5A6C92A19F8514B0057C305 /* SecondNavTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondNavTableViewCell.h; sourceTree = "<group>"; };
+		C5A6C92B19F8514B0057C305 /* SecondNavTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondNavTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C585040719F02CE700C88E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C585041019F02CE800C88E7C /* CoreGraphics.framework in Frameworks */,
+				C585041219F02CE800C88E7C /* UIKit.framework in Frameworks */,
+				C585040E19F02CE800C88E7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C585042819F02CE800C88E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C585042D19F02CE800C88E7C /* XCTest.framework in Frameworks */,
+				C585042F19F02CE800C88E7C /* UIKit.framework in Frameworks */,
+				C585042E19F02CE800C88E7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C585040119F02CE700C88E7C = {
+			isa = PBXGroup;
+			children = (
+				C585041319F02CE800C88E7C /* SoyKB_DEV */,
+				C585043219F02CE800C88E7C /* SoyKB_DEVTests */,
+				C585040C19F02CE800C88E7C /* Frameworks */,
+				C585040B19F02CE800C88E7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C585040B19F02CE800C88E7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C585040A19F02CE800C88E7C /* SoyKB_DEV.app */,
+				C585042B19F02CE800C88E7C /* SoyKB_DEVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C585040C19F02CE800C88E7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C585040D19F02CE800C88E7C /* Foundation.framework */,
+				C585040F19F02CE800C88E7C /* CoreGraphics.framework */,
+				C585041119F02CE800C88E7C /* UIKit.framework */,
+				C585042C19F02CE800C88E7C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C585041319F02CE800C88E7C /* SoyKB_DEV */ = {
+			isa = PBXGroup;
+			children = (
+				C585041C19F02CE800C88E7C /* AppDelegate.h */,
+				C585041D19F02CE800C88E7C /* AppDelegate.m */,
+				C585041F19F02CE800C88E7C /* Main.storyboard */,
+				C585042219F02CE800C88E7C /* ViewController.h */,
+				C585042319F02CE800C88E7C /* ViewController.m */,
+				C585044519F036C900C88E7C /* RegisterViewController.h */,
+				C585044619F036C900C88E7C /* RegisterViewController.m */,
+				C5A6C91E19F81E400057C305 /* NavTableViewController.h */,
+				C5A6C91F19F81E400057C305 /* NavTableViewController.m */,
+				C5A6C92119F820F40057C305 /* NavTableViewCell.h */,
+				C5A6C92219F820F40057C305 /* NavTableViewCell.m */,
+				C5A6C92719F832D20057C305 /* SecondNavTableViewController.h */,
+				C5A6C92819F832D20057C305 /* SecondNavTableViewController.m */,
+				C5A6C92A19F8514B0057C305 /* SecondNavTableViewCell.h */,
+				C5A6C92B19F8514B0057C305 /* SecondNavTableViewCell.m */,
+				C585042519F02CE800C88E7C /* Images.xcassets */,
+				C585041419F02CE800C88E7C /* Supporting Files */,
+			);
+			path = SoyKB_DEV;
+			sourceTree = "<group>";
+		};
+		C585041419F02CE800C88E7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C585041519F02CE800C88E7C /* SoyKB_DEV-Info.plist */,
+				C585041619F02CE800C88E7C /* InfoPlist.strings */,
+				C585041919F02CE800C88E7C /* main.m */,
+				C585041B19F02CE800C88E7C /* SoyKB_DEV-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C585043219F02CE800C88E7C /* SoyKB_DEVTests */ = {
+			isa = PBXGroup;
+			children = (
+				C585043819F02CE800C88E7C /* SoyKB_DEVTests.m */,
+				C585043319F02CE800C88E7C /* Supporting Files */,
+			);
+			path = SoyKB_DEVTests;
+			sourceTree = "<group>";
+		};
+		C585043319F02CE800C88E7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C585043419F02CE800C88E7C /* SoyKB_DEVTests-Info.plist */,
+				C585043519F02CE800C88E7C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C585040919F02CE700C88E7C /* SoyKB_DEV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C585043C19F02CE800C88E7C /* Build configuration list for PBXNativeTarget "SoyKB_DEV" */;
+			buildPhases = (
+				C585040619F02CE700C88E7C /* Sources */,
+				C585040719F02CE700C88E7C /* Frameworks */,
+				C585040819F02CE700C88E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoyKB_DEV;
+			productName = SoyKB_DEV;
+			productReference = C585040A19F02CE800C88E7C /* SoyKB_DEV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C585042A19F02CE800C88E7C /* SoyKB_DEVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C585043F19F02CE800C88E7C /* Build configuration list for PBXNativeTarget "SoyKB_DEVTests" */;
+			buildPhases = (
+				C585042719F02CE800C88E7C /* Sources */,
+				C585042819F02CE800C88E7C /* Frameworks */,
+				C585042919F02CE800C88E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C585043119F02CE800C88E7C /* PBXTargetDependency */,
+			);
+			name = SoyKB_DEVTests;
+			productName = SoyKB_DEVTests;
+			productReference = C585042B19F02CE800C88E7C /* SoyKB_DEVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C585040219F02CE700C88E7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = SoyKBDevelopment;
+				TargetAttributes = {
+					C585042A19F02CE800C88E7C = {
+						TestTargetID = C585040919F02CE700C88E7C;
+					};
+				};
+			};
+			buildConfigurationList = C585040519F02CE700C88E7C /* Build configuration list for PBXProject "SoyKB_DEV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C585040119F02CE700C88E7C;
+			productRefGroup = C585040B19F02CE800C88E7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C585040919F02CE700C88E7C /* SoyKB_DEV */,
+				C585042A19F02CE800C88E7C /* SoyKB_DEVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C585040819F02CE700C88E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C585042619F02CE800C88E7C /* Images.xcassets in Resources */,
+				C585041819F02CE800C88E7C /* InfoPlist.strings in Resources */,
+				C585042119F02CE800C88E7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C585042919F02CE800C88E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C585043719F02CE800C88E7C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C585040619F02CE700C88E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A6C92019F81E400057C305 /* NavTableViewController.m in Sources */,
+				C585044719F036C900C88E7C /* RegisterViewController.m in Sources */,
+				C585042419F02CE800C88E7C /* ViewController.m in Sources */,
+				C5A6C92919F832D20057C305 /* SecondNavTableViewController.m in Sources */,
+				C5A6C92319F820F40057C305 /* NavTableViewCell.m in Sources */,
+				C585041E19F02CE800C88E7C /* AppDelegate.m in Sources */,
+				C585041A19F02CE800C88E7C /* main.m in Sources */,
+				C5A6C92C19F8514B0057C305 /* SecondNavTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C585042719F02CE800C88E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C585043919F02CE800C88E7C /* SoyKB_DEVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C585043119F02CE800C88E7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C585040919F02CE700C88E7C /* SoyKB_DEV */;
+			targetProxy = C585043019F02CE800C88E7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C585041619F02CE800C88E7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C585041719F02CE800C88E7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C585041F19F02CE800C88E7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C585042019F02CE800C88E7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C585043519F02CE800C88E7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C585043619F02CE800C88E7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C585043A19F02CE800C88E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C585043B19F02CE800C88E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C585043D19F02CE800C88E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoyKB_DEV/SoyKB_DEV-Prefix.pch";
+				INFOPLIST_FILE = "SoyKB_DEV/SoyKB_DEV-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C585043E19F02CE800C88E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoyKB_DEV/SoyKB_DEV-Prefix.pch";
+				INFOPLIST_FILE = "SoyKB_DEV/SoyKB_DEV-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C585044019F02CE800C88E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoyKB_DEV.app/SoyKB_DEV";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoyKB_DEV/SoyKB_DEV-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SoyKB_DEVTests/SoyKB_DEVTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C585044119F02CE800C88E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoyKB_DEV.app/SoyKB_DEV";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoyKB_DEV/SoyKB_DEV-Prefix.pch";
+				INFOPLIST_FILE = "SoyKB_DEVTests/SoyKB_DEVTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C585040519F02CE700C88E7C /* Build configuration list for PBXProject "SoyKB_DEV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C585043A19F02CE800C88E7C /* Debug */,
+				C585043B19F02CE800C88E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C585043C19F02CE800C88E7C /* Build configuration list for PBXNativeTarget "SoyKB_DEV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C585043D19F02CE800C88E7C /* Debug */,
+				C585043E19F02CE800C88E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C585043F19F02CE800C88E7C /* Build configuration list for PBXNativeTarget "SoyKB_DEVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C585044019F02CE800C88E7C /* Debug */,
+				C585044119F02CE800C88E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C585040219F02CE700C88E7C /* Project object */;
+}
