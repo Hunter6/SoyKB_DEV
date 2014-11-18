@@ -58,24 +58,7 @@
                       @"eFP Browser",
                       @"TF-ORFeome",];
     }
-    else if([_BarDetail[0] isEqualToString:@"Tools"]) {
-        _SubTitle  =@[@"Affymetrix Probe ID Mapper",
-                      @"Gene Pathway Viewer",
-                      @"Metabolite Pathway Viewer",
-                      @"MotifSampler w/ WebLOGO",
-                      @"Blast",
-                      @"Multiple Sequence Alignment",
-                      @"Phylogeny",
-                      @"Chromosome Visualizer",
-                      @"Protein BioViewer",
-                      @"Heatmap and Hierarchical Clustering",
-                      @"ScatterPlot",
-                      @"Targeted Sequence Selection",
-                      @"SNPViz",
-                      @"Mutant Finder",
-                      @"Enrichment Analysis",];
-    }
-    
+        
 }
 
 - (void)didReceiveMemoryWarning

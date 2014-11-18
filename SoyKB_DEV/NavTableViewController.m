@@ -36,8 +36,6 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     _Title=@[@"Search",
              @"Browse",
-             @"Tools",
-             @"Data Files",
              @"Information",
              @"Help",
              @"About",];

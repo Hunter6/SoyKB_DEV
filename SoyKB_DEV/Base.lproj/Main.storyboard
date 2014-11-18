@@ -183,6 +183,7 @@
                         <outlet property="txtPassword" destination="ivA-pk-UKK" id="J9P-CX-VUe"/>
                         <outlet property="txtReenter" destination="8qT-YY-XAq" id="n9s-EG-1TR"/>
                         <outlet property="txtUsername" destination="RZn-tG-7V1" id="XF6-eL-vxZ"/>
+                        <segue destination="hrg-0o-jpx" kind="push" identifier="register_complete" id="lEO-ne-152"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wNL-Wx-vMD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -192,7 +193,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="889" y="710"/>
+            <point key="canvasLocation" x="791" y="524"/>
         </scene>
         <!--Nav Table View Controller - SoyKB Function-->
         <scene sceneID="Wn5-Er-ytV">
@@ -287,10 +288,32 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="sGL-rg-Ebv"/>
+                    <connections>
+                        <segue destination="fAA-I8-cjS" kind="push" id="jOO-jK-vEl"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7fk-zI-Abi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1637" y="-16"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ei5-ml-7mr">
+            <objects>
+                <viewController id="fAA-I8-cjS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nz6-i1-pwb"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Ur-et-o5b"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="reL-tS-111">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KA8-PP-YzZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g7W-ZD-s2p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2070" y="-22"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="iGD-Kb-UNx">
@@ -316,4 +339,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="lEO-ne-152"/>
+    </inferredMetricsTieBreakers>
 </document>
