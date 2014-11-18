@@ -256,11 +256,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TableCell2" rowHeight="56" id="WvF-ot-9ef" customClass="SecondNavTableViewCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TableCell2" rowHeight="56" id="WvF-ot-9ef" customClass="SecondNavTableViewCell">
                                 <rect key="frame" x="0.0" y="86" width="320" height="56"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WvF-ot-9ef" id="ZwL-wd-S5v">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="55"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYy-L0-R9R">
@@ -279,6 +279,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="SubTitleLabel" destination="7mG-EN-y8T" id="l4n-RM-59T"/>
+                                    <segue destination="fAA-I8-cjS" kind="push" identifier="ShowFunction" id="0s8-x5-l5d"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -288,18 +289,15 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="sGL-rg-Ebv"/>
-                    <connections>
-                        <segue destination="fAA-I8-cjS" kind="push" id="jOO-jK-vEl"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7fk-zI-Abi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1637" y="-16"/>
         </scene>
-        <!--View Controller-->
+        <!--Function View Controller-->
         <scene sceneID="ei5-ml-7mr">
             <objects>
-                <viewController id="fAA-I8-cjS" sceneMemberID="viewController">
+                <viewController id="fAA-I8-cjS" customClass="FunctionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Nz6-i1-pwb"/>
                         <viewControllerLayoutGuide type="bottom" id="1Ur-et-o5b"/>
@@ -307,6 +305,15 @@
                     <view key="view" contentMode="scaleToFill" id="reL-tS-111">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HelloWorld" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNW-e5-hsa">
+                                <rect key="frame" x="115" y="293" width="84" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="KA8-PP-YzZ"/>

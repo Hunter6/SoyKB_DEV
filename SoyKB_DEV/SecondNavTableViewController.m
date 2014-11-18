@@ -8,7 +8,7 @@
 
 #import "SecondNavTableViewController.h"
 #import "SecondNavTableViewCell.h"
-
+#import "FunctionViewController.h"
 
 @interface SecondNavTableViewController ()
 
@@ -93,6 +93,16 @@
     cell.SubTitleLabel.text=_SubTitle[row];
     
     return cell;
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if([[segue identifier] isEqualToString:@"ShowFunction"]){
+        FunctionViewController *functionnavtableviewcontroller = [segue destinationViewController];
+        
+        NSIndexPath *myIndexPath = [self.tableView indexPathForSelectedRow];
+        int row = [myIndexPath row];
+        functionnavtableviewcontroller.FunBarDetail = @[_SubTitle[row]];
+    }
 }
 
 /*
