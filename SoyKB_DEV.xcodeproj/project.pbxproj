@@ -22,6 +22,10 @@
 		C585043719F02CE800C88E7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C585043519F02CE800C88E7C /* InfoPlist.strings */; };
 		C585043919F02CE800C88E7C /* SoyKB_DEVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C585043819F02CE800C88E7C /* SoyKB_DEVTests.m */; };
 		C585044719F036C900C88E7C /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C585044619F036C900C88E7C /* RegisterViewController.m */; };
+		C59C1DB51A1BADEB000ED629 /* FunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C1DB41A1BADEB000ED629 /* FunctionViewController.m */; };
+		C59C1DB81A1D17D2000ED629 /* Gene.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C1DB71A1D17D2000ED629 /* Gene.m */; };
+		C59C1DBB1A1D1EFE000ED629 /* ResultTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C1DBA1A1D1EFE000ED629 /* ResultTableController.m */; };
+		C59C1DBE1A1D1FFB000ED629 /* ResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C1DBD1A1D1FFB000ED629 /* ResultTableViewCell.m */; };
 		C5A6C92019F81E400057C305 /* NavTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6C91F19F81E400057C305 /* NavTableViewController.m */; };
 		C5A6C92319F820F40057C305 /* NavTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6C92219F820F40057C305 /* NavTableViewCell.m */; };
 		C5A6C92919F832D20057C305 /* SecondNavTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6C92819F832D20057C305 /* SecondNavTableViewController.m */; };
@@ -60,6 +64,14 @@
 		C585043819F02CE800C88E7C /* SoyKB_DEVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoyKB_DEVTests.m; sourceTree = "<group>"; };
 		C585044519F036C900C88E7C /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		C585044619F036C900C88E7C /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		C59C1DB31A1BADEB000ED629 /* FunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionViewController.h; sourceTree = "<group>"; };
+		C59C1DB41A1BADEB000ED629 /* FunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionViewController.m; sourceTree = "<group>"; };
+		C59C1DB61A1D17D2000ED629 /* Gene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gene.h; sourceTree = "<group>"; };
+		C59C1DB71A1D17D2000ED629 /* Gene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gene.m; sourceTree = "<group>"; };
+		C59C1DB91A1D1EFE000ED629 /* ResultTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultTableController.h; sourceTree = "<group>"; };
+		C59C1DBA1A1D1EFE000ED629 /* ResultTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultTableController.m; sourceTree = "<group>"; };
+		C59C1DBC1A1D1FFB000ED629 /* ResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultTableViewCell.h; sourceTree = "<group>"; };
+		C59C1DBD1A1D1FFB000ED629 /* ResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultTableViewCell.m; sourceTree = "<group>"; };
 		C5A6C91E19F81E400057C305 /* NavTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavTableViewController.h; sourceTree = "<group>"; };
 		C5A6C91F19F81E400057C305 /* NavTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavTableViewController.m; sourceTree = "<group>"; };
 		C5A6C92119F820F40057C305 /* NavTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavTableViewCell.h; sourceTree = "<group>"; };
@@ -144,6 +156,14 @@
 				C5A6C92B19F8514B0057C305 /* SecondNavTableViewCell.m */,
 				C585042519F02CE800C88E7C /* Images.xcassets */,
 				C585041419F02CE800C88E7C /* Supporting Files */,
+				C59C1DB31A1BADEB000ED629 /* FunctionViewController.h */,
+				C59C1DB41A1BADEB000ED629 /* FunctionViewController.m */,
+				C59C1DB61A1D17D2000ED629 /* Gene.h */,
+				C59C1DB71A1D17D2000ED629 /* Gene.m */,
+				C59C1DB91A1D1EFE000ED629 /* ResultTableController.h */,
+				C59C1DBA1A1D1EFE000ED629 /* ResultTableController.m */,
+				C59C1DBC1A1D1FFB000ED629 /* ResultTableViewCell.h */,
+				C59C1DBD1A1D1FFB000ED629 /* ResultTableViewCell.m */,
 			);
 			path = SoyKB_DEV;
 			sourceTree = "<group>";
@@ -274,9 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C59C1DBB1A1D1EFE000ED629 /* ResultTableController.m in Sources */,
+				C59C1DB81A1D17D2000ED629 /* Gene.m in Sources */,
 				C5A6C92019F81E400057C305 /* NavTableViewController.m in Sources */,
 				C585044719F036C900C88E7C /* RegisterViewController.m in Sources */,
 				C585042419F02CE800C88E7C /* ViewController.m in Sources */,
+				C59C1DB51A1BADEB000ED629 /* FunctionViewController.m in Sources */,
+				C59C1DBE1A1D1FFB000ED629 /* ResultTableViewCell.m in Sources */,
 				C5A6C92919F832D20057C305 /* SecondNavTableViewController.m in Sources */,
 				C5A6C92319F820F40057C305 /* NavTableViewCell.m in Sources */,
 				C585041E19F02CE800C88E7C /* AppDelegate.m in Sources */,
