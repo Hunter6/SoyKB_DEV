@@ -7,14 +7,20 @@
 //
 
 #import "FunctionViewController.h"
+<<<<<<< HEAD
 #import "ResultTableController.h"
+=======
+>>>>>>> FETCH_HEAD
 
 @interface FunctionViewController ()
 
 @end
 
 @implementation FunctionViewController
+<<<<<<< HEAD
 @synthesize jsonArray/*,gene*/;
+=======
+>>>>>>> FETCH_HEAD
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -39,6 +45,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+<<<<<<< HEAD
 - (IBAction)backgroundTap:(id)sender {
     [self.view endEditing:YES];
 }
@@ -105,6 +112,8 @@
         
     }
 }
+=======
+>>>>>>> FETCH_HEAD
 /*
 #pragma mark - Navigation
 
