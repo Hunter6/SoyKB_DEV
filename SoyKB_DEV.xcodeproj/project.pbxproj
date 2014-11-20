@@ -23,6 +23,10 @@
 		C585043919F02CE800C88E7C /* SoyKB_DEVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C585043819F02CE800C88E7C /* SoyKB_DEVTests.m */; };
 		C585044719F036C900C88E7C /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C585044619F036C900C88E7C /* RegisterViewController.m */; };
 		C59C1DB51A1BADEB000ED629 /* FunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C1DB41A1BADEB000ED629 /* FunctionViewController.m */; };
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
 		C59C1DB81A1D17D2000ED629 /* Gene.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C1DB71A1D17D2000ED629 /* Gene.m */; };
 		C59C1DBB1A1D1EFE000ED629 /* ResultTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C1DBA1A1D1EFE000ED629 /* ResultTableController.m */; };
 		C59C1DBE1A1D1FFB000ED629 /* ResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C1DBD1A1D1FFB000ED629 /* ResultTableViewCell.m */; };
@@ -34,6 +38,17 @@
 		C5A3C2FB1A1DCC530021821E /* icon4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5A3C2F61A1DCC530021821E /* icon4.jpg */; };
 		C5A3C2FC1A1DCC530021821E /* icon5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5A3C2F71A1DCC530021821E /* icon5.jpg */; };
 		C5A3C2FE1A1DD0E20021821E /* logo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5A3C2FD1A1DD0E20021821E /* logo3.jpg */; };
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+		C59C1DB81A1D17D2000ED629 /* Gene.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C1DB71A1D17D2000ED629 /* Gene.m */; };
+		C59C1DBB1A1D1EFE000ED629 /* ResultTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C1DBA1A1D1EFE000ED629 /* ResultTableController.m */; };
+		C59C1DBE1A1D1FFB000ED629 /* ResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C1DBD1A1D1FFB000ED629 /* ResultTableViewCell.m */; };
+=======
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 		C5A6C92019F81E400057C305 /* NavTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6C91F19F81E400057C305 /* NavTableViewController.m */; };
 		C5A6C92319F820F40057C305 /* NavTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6C92219F820F40057C305 /* NavTableViewCell.m */; };
 		C5A6C92919F832D20057C305 /* SecondNavTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6C92819F832D20057C305 /* SecondNavTableViewController.m */; };
@@ -75,12 +90,23 @@
 		C585044619F036C900C88E7C /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		C59C1DB31A1BADEB000ED629 /* FunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionViewController.h; sourceTree = "<group>"; };
 		C59C1DB41A1BADEB000ED629 /* FunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionViewController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 		C59C1DB61A1D17D2000ED629 /* Gene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gene.h; sourceTree = "<group>"; };
 		C59C1DB71A1D17D2000ED629 /* Gene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gene.m; sourceTree = "<group>"; };
 		C59C1DB91A1D1EFE000ED629 /* ResultTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultTableController.h; sourceTree = "<group>"; };
 		C59C1DBA1A1D1EFE000ED629 /* ResultTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultTableController.m; sourceTree = "<group>"; };
 		C59C1DBC1A1D1FFB000ED629 /* ResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultTableViewCell.h; sourceTree = "<group>"; };
 		C59C1DBD1A1D1FFB000ED629 /* ResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultTableViewCell.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
 		C5A3C2EE1A1DC6CC0021821E /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = ../../Logo.png; sourceTree = "<group>"; };
 		C5A3C2F01A1DC8860021821E /* LOGO2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LOGO2.png; path = ../../LOGO2.png; sourceTree = "<group>"; };
 		C5A3C2F31A1DCC530021821E /* icon1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon1.jpeg; sourceTree = "<group>"; };
@@ -89,6 +115,13 @@
 		C5A3C2F61A1DCC530021821E /* icon4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon4.jpg; sourceTree = "<group>"; };
 		C5A3C2F71A1DCC530021821E /* icon5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon5.jpg; sourceTree = "<group>"; };
 		C5A3C2FD1A1DD0E20021821E /* logo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo3.jpg; path = ../../logo3.jpg; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 		C5A6C91E19F81E400057C305 /* NavTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavTableViewController.h; sourceTree = "<group>"; };
 		C5A6C91F19F81E400057C305 /* NavTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavTableViewController.m; sourceTree = "<group>"; };
 		C5A6C92119F820F40057C305 /* NavTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavTableViewCell.h; sourceTree = "<group>"; };
@@ -157,7 +190,10 @@
 		C585041319F02CE800C88E7C /* SoyKB_DEV */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				C5A85BCA1A1E6EE000CA78D7 /* logo4.png */,
+=======
+>>>>>>> FETCH_HEAD
 				C5A3C2FD1A1DD0E20021821E /* logo3.jpg */,
 				C5A3C2F01A1DC8860021821E /* LOGO2.png */,
 				C5A3C2EE1A1DC6CC0021821E /* Logo.png */,
@@ -180,12 +216,27 @@
 				C585041419F02CE800C88E7C /* Supporting Files */,
 				C59C1DB31A1BADEB000ED629 /* FunctionViewController.h */,
 				C59C1DB41A1BADEB000ED629 /* FunctionViewController.m */,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 				C59C1DB61A1D17D2000ED629 /* Gene.h */,
 				C59C1DB71A1D17D2000ED629 /* Gene.m */,
 				C59C1DB91A1D1EFE000ED629 /* ResultTableController.h */,
 				C59C1DBA1A1D1EFE000ED629 /* ResultTableController.m */,
 				C59C1DBC1A1D1FFB000ED629 /* ResultTableViewCell.h */,
 				C59C1DBD1A1D1FFB000ED629 /* ResultTableViewCell.m */,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 			);
 			path = SoyKB_DEV;
 			sourceTree = "<group>";
@@ -310,7 +361,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5A3C2FC1A1DCC530021821E /* icon5.jpg in Resources */,
+<<<<<<< HEAD
 				C5A85BCB1A1E6EE000CA78D7 /* logo4.png in Resources */,
+=======
+>>>>>>> FETCH_HEAD
 				C5A3C2F81A1DCC530021821E /* icon1.jpeg in Resources */,
 				C5A3C2EF1A1DC6CC0021821E /* Logo.png in Resources */,
 				C585042619F02CE800C88E7C /* Images.xcassets in Resources */,
@@ -345,7 +399,18 @@
 				C585044719F036C900C88E7C /* RegisterViewController.m in Sources */,
 				C585042419F02CE800C88E7C /* ViewController.m in Sources */,
 				C59C1DB51A1BADEB000ED629 /* FunctionViewController.m in Sources */,
+<<<<<<< HEAD
 				C59C1DBE1A1D1FFB000ED629 /* ResultTableViewCell.m in Sources */,
+=======
+<<<<<<< HEAD
+				C59C1DBE1A1D1FFB000ED629 /* ResultTableViewCell.m in Sources */,
+=======
+<<<<<<< HEAD
+				C59C1DBE1A1D1FFB000ED629 /* ResultTableViewCell.m in Sources */,
+=======
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 				C5A6C92919F832D20057C305 /* SecondNavTableViewController.m in Sources */,
 				C5A6C92319F820F40057C305 /* NavTableViewCell.m in Sources */,
 				C585041E19F02CE800C88E7C /* AppDelegate.m in Sources */,
