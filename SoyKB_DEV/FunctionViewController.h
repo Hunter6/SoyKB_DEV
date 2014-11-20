@@ -7,12 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+<<<<<<< HEAD
 #import "Gene.h"
+=======
+<<<<<<< HEAD
+#import "Gene.h"
+=======
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 
 @interface FunctionViewController : UIViewController
 @property (strong, nonatomic) NSArray *FunBarDetail;
 @property (strong, nonatomic) IBOutlet UILabel *TitleLabel;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
 @property (weak, nonatomic) IBOutlet UITextField *geneID;
 @property (nonatomic, strong) NSMutableArray * jsonArray;
 //@property (nonatomic, strong)  Gene * gene;
@@ -20,5 +31,10 @@
 - (IBAction)backgroundTap:(id)sender;
 
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 
 @end

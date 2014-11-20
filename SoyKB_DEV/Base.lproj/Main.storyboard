@@ -194,7 +194,11 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="822" y="580"/>
+=======
+            <point key="canvasLocation" x="791" y="524"/>
+>>>>>>> FETCH_HEAD
         </scene>
         <!--Nav Table View Controller - SoyKB Function-->
         <scene sceneID="Wn5-Er-ytV">
@@ -271,7 +275,11 @@
                         </imageView>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TableCell2" rowHeight="56" id="WvF-ot-9ef" customClass="SecondNavTableViewCell">
+<<<<<<< HEAD
                                 <rect key="frame" x="0.0" y="166" width="320" height="56"/>
+=======
+                                <rect key="frame" x="0.0" y="86" width="320" height="56"/>
+>>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WvF-ot-9ef" id="ZwL-wd-S5v">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="55"/>
@@ -320,6 +328,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wwB-s9-opP">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -327,25 +336,42 @@
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Search By ID" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNW-e5-hsa">
                                 <rect key="frame" x="103" y="237" width="115" height="24"/>
+=======
+<<<<<<< HEAD
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Search By ID" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNW-e5-hsa">
+                                <rect key="frame" x="103" y="140" width="115" height="24"/>
+>>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GeneID:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2j-lo-3ON">
+<<<<<<< HEAD
                                 <rect key="frame" x="32" y="326" width="63" height="21"/>
+=======
+                                <rect key="frame" x="31" y="273" width="63" height="21"/>
+>>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7yw-ao-pnc">
+<<<<<<< HEAD
                                 <rect key="frame" x="103" y="322" width="171" height="30"/>
+=======
+                                <rect key="frame" x="103" y="269" width="171" height="30"/>
+>>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehd-Tq-HdX">
+<<<<<<< HEAD
                                 <rect key="frame" x="103" y="371" width="53" height="30"/>
+=======
+                                <rect key="frame" x="103" y="307" width="53" height="30"/>
+>>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Search">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -354,10 +380,13 @@
                                     <segue destination="lkf-fc-6xq" kind="push" identifier="ShowResult" id="adk-LR-QkO"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="u4G-A9-NTy">
                                 <rect key="frame" x="0.0" y="62" width="320" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+=======
+>>>>>>> FETCH_HEAD
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -419,6 +448,27 @@
             </objects>
             <point key="canvasLocation" x="2492" y="-16"/>
         </scene>
+<<<<<<< HEAD
+=======
+=======
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HelloWorld" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNW-e5-hsa">
+                                <rect key="frame" x="115" y="293" width="84" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KA8-PP-YzZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g7W-ZD-s2p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2070" y="-22"/>
+        </scene>
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
         <!--Navigation Controller-->
         <scene sceneID="iGD-Kb-UNx">
             <objects>
