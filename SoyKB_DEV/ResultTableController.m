@@ -1,20 +1,19 @@
 //
-//  SecondNavTableViewController.m
+//  ResultTableController.m
 //  SoyKB_DEV
 //
-//  Created by digbio lab on 10/22/14.
+//  Created by digbio lab on 11/19/14.
 //  Copyright (c) 2014 SoyKBDevelopment. All rights reserved.
 //
 
-#import "SecondNavTableViewController.h"
-#import "SecondNavTableViewCell.h"
-#import "FunctionViewController.h"
+#import "ResultTableController.h"
+#import "ResultTableViewCell.h"
 
-@interface SecondNavTableViewController ()
+@interface ResultTableController ()
 
 @end
 
-@implementation SecondNavTableViewController
+@implementation ResultTableController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -28,37 +27,34 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    NSString * glymid = [NSString stringWithFormat:@"Glymid: %@",_gene2.Glymaid];
+    NSString * querysize = [NSString stringWithFormat:@"QuerySize: %@",_gene2.QuerySize];
+    NSString * hit1 = [NSString stringWithFormat:@"Hit1: %@",_gene2.Hit_1];
+    NSString * annotation = [NSString stringWithFormat:@"Annotation: %@",_gene2.Annotation_1];
+    NSString * score1 = [NSString stringWithFormat:@"Score1: %@",_gene2.Score_1];
+    if (![_gene2.Glymaid isEqualToString:@""]){
+        _Info = @[glymid,
+                  querysize,
+                  hit1,
+                  annotation,
+                  score1,
+                  ];
+        
+    }
+    else{
+        _Info = @[glymid,
+                  querysize,
+                  hit1,
+                  annotation,
+                  score1,
+                  ];
+    }
+
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    _TitleLabel.text = _BarDetail[0];
-    self.navigationItem.title = _BarDetail[0];
-    
-    if ([_BarDetail[0] isEqualToString:@"Search"]) {
-           _SubTitle =@[@"Genes",
-                      @"miRNA/sRNA",
-                      @"Metabolites",
-                      @"SNP",
-                      @"PI",];
-        
-    }
-    else if([_BarDetail[0] isEqualToString:@"Browse"]) {
-        _SubTitle  =@[@"Gene Families",
-                      @"3D Protein Structure",
-                      @"Homeologous Genes",
-                      @"Phosphorylation",
-                      @"G.Soja",
-                      @"Genome Browser",
-                      @"In Silico Breeding Program",
-                      @"Fast Neutron Mutant Data",
-                      @"Differential Expression",
-                      @"eFP Browser",
-                      @"TF-ORFeome",];
-    }
-        
 }
 
 - (void)didReceiveMemoryWarning
@@ -80,30 +76,31 @@
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return _SubTitle.count;
+    return _Info.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier2 = @"TableCell2";
-    SecondNavTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier2 forIndexPath:indexPath];
+    static NSString *CellIdentifier=@"TableCell3";
+    ResultTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
     int row = [indexPath row];
-    cell.SubTitleLabel.text=_SubTitle[row];
+    cell.TitleLabel3.text = _Info[row];
     
     return cell;
 }
 
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    if([[segue identifier] isEqualToString:@"ShowFunction"]){
-        FunctionViewController *functionnavtableviewcontroller = [segue destinationViewController];
-        
-        NSIndexPath *myIndexPath = [self.tableView indexPathForSelectedRow];
-        int row = [myIndexPath row];
-        functionnavtableviewcontroller.FunBarDetail = @[_SubTitle[row]];
-    }
+/*
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    
+    // Configure the cell...
+    
+    return cell;
 }
+*/
 
 /*
 // Override to support conditional editing of the table view.

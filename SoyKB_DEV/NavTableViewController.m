@@ -36,11 +36,15 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     _Title=@[@"Search",
              @"Browse",
-             @"Tools",
-             @"Data Files",
              @"Information",
              @"Help",
              @"About",];
+    
+    _Images=@[@"icon1.jpeg",
+              @"icon2.jpg",
+              @"icon3.jpg",
+              @"icon4.jpg",
+              @"icon5.jpg",];
 }
 
 - (void)didReceiveMemoryWarning
@@ -74,7 +78,7 @@
     // Configure the cell...
     int row = [indexPath row];
     cell.TitleLabel.text = _Title[row];
-    
+    cell.Icon.image = [UIImage imageNamed: _Images[row]];
     return cell;
 }
 

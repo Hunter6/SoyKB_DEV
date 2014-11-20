@@ -11,6 +11,6 @@
 @interface NavTableViewController : UITableViewController
 
 @property (nonatomic, strong) NSArray *Title;
-
+@property (nonatomic, strong) NSArray *Images;
 
 @end
