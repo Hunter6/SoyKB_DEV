@@ -11,5 +11,6 @@
 @interface NavTableViewCell : UITableViewCell
 
 @property(strong,nonatomic) IBOutlet UILabel * TitleLabel;
+@property(strong,nonatomic) IBOutlet UIImageView *Icon;
 
 @end
